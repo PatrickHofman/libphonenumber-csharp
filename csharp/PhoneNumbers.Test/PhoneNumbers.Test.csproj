@@ -7,6 +7,8 @@
     <DebugType>full</DebugType>
     <NoWarn>$(NoWarn);CA1014;CA1707</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>$(VS_SIGNATURE_FILE)</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>

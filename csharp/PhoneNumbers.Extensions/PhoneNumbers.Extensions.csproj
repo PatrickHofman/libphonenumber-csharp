@@ -25,6 +25,8 @@
         <EnableNETAnalyzers>true</EnableNETAnalyzers>
         <AnalysisMode>AllEnabledByDefault</AnalysisMode>
         <AnalysisLevel>5</AnalysisLevel>
+        <SignAssembly>True</SignAssembly>
+        <AssemblyOriginatorKeyFile>$(VS_SIGNATURE_FILE)</AssemblyOriginatorKeyFile>
     </PropertyGroup>
 
     <ItemGroup>
